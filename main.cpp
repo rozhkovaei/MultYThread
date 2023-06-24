@@ -58,7 +58,7 @@ void file_producer( WaitingQueue< list< string > >& queue ) {
  //   std::cout << "file_producer - end of cycle" << std::endl;
 }
 
-int main( int argc, char const *argv[] )
+int main( int /*argc*/, char const *argv[] )
 {
     WaitingQueue< std::list< std::string > > file_queue;
     WaitingQueue< std::list< std::string > > console_queue;
